@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Prime Video X-ray & Overlay Remover",
+  "version": "1.0",
+  "description": "This extension removes X-ray and black overlay",
+  "background": {
+    "service_worker": "background.js"
+},
+
+	
+"permissions": [ "activeTab","scripting","storage" ],
+  "host_permissions": [ "https://primevideo.com/" ],
+
+"action":{
+  "default_title": "Prime Xray remove",
+  "default_icon": "assets/icon.png"
+}
+
+
+}
